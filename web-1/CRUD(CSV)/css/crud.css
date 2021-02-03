@@ -1,0 +1,196 @@
+body{
+    background-color:#0A0820;
+    padding-top: 48px;
+}
+
+div#screen{
+    max-width: 800px;
+    min-height: 570px;
+    margin: auto;
+    background-color: white;
+    border-radius: 8px 8px 8px;
+    box-shadow: 6px 6px 6px black ;
+    
+}
+
+div#menu{
+    background-color: #38045E;
+    height: 35px;
+    margin-top: -20px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    box-shadow: 1px 1px 1px black ;
+    padding-top: 8px;
+    
+}
+
+div#message{
+    width: 205px;
+    height: 20px;
+    margin: auto auto auto 95px;
+    text-align: center;
+    border: 0.5px solid rgba(36, 11, 80, 0.3);
+}
+
+form{ 
+    margin: auto;
+    margin-top: 130px;
+    height:265px;
+    max-width: 400px;
+    border: 1px solid black;
+    position: relative;
+    border: 0.5px solid rgba(36, 11, 80, 0.2);
+    box-shadow: 1px 1px 1px #240B50;
+}
+
+form#add{
+    margin:auto;
+    margin-top: 30px;
+    height:250px;
+    max-width: 400px;
+    border: 1px solid black;
+    position: relative;
+    border: 0.5px solid rgba(36, 11, 80, 0.2);
+    box-shadow: 1px 1px 1px #240B50;
+}
+
+div#list{
+    margin: auto;
+    margin-top: 10px;
+    max-width:400px;
+}
+
+td{
+    width: 340px;
+    text-align: center;
+    color:#0A0820 ;
+    font-size: 14px;
+    text-shadow: 2px 2px 2px #7657AD;
+    border: 0.5px solid rgba(36, 11, 80, 0.3);
+    box-shadow: 1px 1px 1px #240B50;
+    background-color: #E0D2F9;
+}
+
+td#delete{
+    width:50px;
+    background-color: white;
+}
+
+td#delete:hover{  
+    background-color: rgb(253, 204, 201);
+    transition: 0.9s;
+}
+
+h1{
+    color:#38045E;
+    text-shadow: 2px 2px 2px #0A0820;
+    margin-top: 0px;
+    margin-left: 5px;
+}
+
+h2{
+    background-color: #38045E;
+    height: 30px;
+    text-align: center;
+    box-shadow: 1px 1px 1px black ;
+    padding-top: 2px;
+    color:white;
+}
+
+h4{
+    margin-top: 0px;
+    color:#0A0820 ;
+}
+
+ a{
+    text-decoration: none;
+    color:#0A0820;
+}
+
+span{
+    color:white;
+    margin-left: 8px;
+    text-shadow: 3px 3px 3px black;
+    font-size: 1.2em;
+}
+
+span#user{
+    color:rgb(123, 186, 238);
+    text-shadow:1px 1px 1px black;
+    font-size: 25px;
+    float:right;
+    margin-right: 12px;
+}
+
+span#user span{
+    color:rgb(74, 170, 90);
+    margin-left:5px;
+    font-size: 25px;
+}
+
+span#user a{
+color: white;
+font-size:23px ;
+}
+
+span#user a:hover{
+color:rgb(74, 170, 90);
+transition: 0.9s;
+}
+
+input{
+    width: 200px;
+    position:absolute;
+    border: 0.5px solid rgba(36, 11, 80, 0.3);
+    box-shadow: 1px 1px 1px #240B50;
+}
+
+input:hover{
+    background-color:#E0D2F9;
+    transition: 0.9s;
+}
+
+button:hover{
+    background-color:#E0D2F9;
+    transition: 0.9s;
+}
+
+input.email{
+    left: 95px;
+    top: 120px;
+}
+
+input.password{
+    left: 95px;
+    top: 145px;
+}
+
+input.username{
+    left: 95px;
+    top: 95px;
+}
+
+input.button{
+    width: 120px;
+    left:140px;
+    top: 200px;
+    cursor: pointer;
+    border-radius: 8px;
+    color:#0A0820 ;
+    font-size: 14px;
+    text-shadow: 2px 2px 2px #7657AD;
+}
+
+button.register{
+    width: 120px;
+    left:140px;
+    top: 225px;
+    cursor: pointer;
+    border-radius: 8px;
+    color:#0A0820 ;
+    font-size: 14px;
+    text-shadow: 2px 2px 2px #7657AD;
+    position:absolute;
+    border: 0.5px solid rgba(36, 11, 80, 0.3);
+    box-shadow: 1px 1px 1px #240B50;
+}
